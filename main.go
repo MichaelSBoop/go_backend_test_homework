@@ -1,5 +1,5 @@
 package main
-
+// Я домашка!
 import (
 	"fmt"
 )
@@ -9,5 +9,5 @@ func Add(a, b int) int {
 }
 
 func main() {
-	fmt.Println("Я домашка")
+	fmt.Println(Add(2,3))
 }
